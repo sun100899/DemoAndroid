@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoAndroid">
-        <activity android:name=".Screen2"></activity>
+        <activity
+            android:name=".BookDetail"
+            android:label="@string/title_activity_book_detail"
+            android:theme="@style/Theme.DemoAndroid.NoActionBar"></activity>
+        <activity android:name=".Screen2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
